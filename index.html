@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gerador de QR CODE</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <script defer src="assets/css/main.js"></script>
+</head>
+<body>
+  <main>
+    <section class="qr-code">
+      <h1 class="qr-code__title bold uppercase">Gerador de QR Code</h1>
+      <div class="qr-code__input-wrapper">
+        <label for="qr-code__text">Texto:</label>
+        <input
+        type="text"
+        class="qr-code__input"
+        id="qr-code__text"
+        />
+      </div>
+      <button class="qr-code__button">Gerar QR Code</button>
+      <!-- <div class="qr-code__code hidden"></div> -->
+      <div class="qr-code__code hidden"></div>
+      <button class="qr-code__export-button hidden">Exportar QR Code</button>
+    </section>
+  </main>
+</body>
+</html>

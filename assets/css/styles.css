@@ -1,0 +1,56 @@
+@import "./base/base.css";
+@import "./base/generics.css";
+
+.qr-code {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid white;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5em;
+  border-radius: .7em;
+  min-width: 320px;
+  max-width: 480px;
+  width: 90%;
+}
+
+.qr-code__title {
+  font-size: 1.2rem;
+}
+
+.qr-code__input-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .5em;
+  align-self: stretch;
+}
+
+.qr-code__input {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  border-radius: .5em;
+  padding: .5em;
+  flex-grow: 1;
+}
+
+.qr-code__code {
+  /* align-self: stretch; */
+  /* height: 50px; */
+  width: 200px;
+  height: 200px;
+  border: 1px solid white;
+}
+
+.qr-code__button,
+.qr-code__export-button {
+  align-self: stretch;
+  padding: .5em 1em;
+  border-radius: .5em;
+}

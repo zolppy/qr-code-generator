@@ -1,0 +1,11 @@
+.bold {
+  font-weight: bold !important;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.uppercase {
+  text-transform: uppercase !important;
+}
